@@ -1,4 +1,4 @@
 # ZWCycleImageView
- ZWCycleImageView 使用的是 SDWebImage\n
+ ZWCycleImageView 使用的是 SDWebImage
  SDWebImage可自行下载
  
