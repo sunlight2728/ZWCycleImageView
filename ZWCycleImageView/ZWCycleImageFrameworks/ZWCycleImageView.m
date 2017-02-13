@@ -55,7 +55,7 @@ NSString * const ID = @"cycleCell";
 - (void)initialization
 {
     _pageControlAliment = ZWCycleImageViewPageContolAlimentCenter;
-    _autoScrollTimeInterval = 2.0;
+    _autoScrollTimeInterval = 4.0;
     _titleLabelTextColor = [UIColor whiteColor];
     _titleLabelTextFont= [UIFont systemFontOfSize:14];
     _titleLabelBackgroundColor = [UIColor colorWithRed:0 green:0 blue:0 alpha:0.5];
