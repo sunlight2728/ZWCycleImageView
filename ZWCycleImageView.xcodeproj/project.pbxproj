@@ -66,6 +66,9 @@
 		0C55A8401E519C4D00AE2E44 /* third_selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C55A8241E519C4D00AE2E44 /* third_selected@2x.png */; };
 		0C55A8451E519DE500AE2E44 /* YZWFifthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C55A8441E519DE500AE2E44 /* YZWFifthViewController.m */; };
 		0C55A8481E519E0600AE2E44 /* ZWRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C55A8471E519E0600AE2E44 /* ZWRootViewController.m */; };
+		0C55A84D1E51AF3600AE2E44 /* ZWMobilePlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C55A84C1E51AF3600AE2E44 /* ZWMobilePlayerViewController.m */; };
+		0C55A8511E51CAB700AE2E44 /* GPUImageBeautifyFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C55A8501E51CAB700AE2E44 /* GPUImageBeautifyFilter.m */; };
+		0C55A8551E51CBA700AE2E44 /* ImageBeautifyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C55A8541E51CBA700AE2E44 /* ImageBeautifyViewController.m */; };
 		820738F9A1CA23D35F306575 /* libPods-ZWCycleImageView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F5C95F3356C06B1286E8718 /* libPods-ZWCycleImageView.a */; };
 /* End PBXBuildFile section */
 
@@ -149,6 +152,12 @@
 		0C55A8461E519E0600AE2E44 /* ZWRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWRootViewController.h; sourceTree = "<group>"; };
 		0C55A8471E519E0600AE2E44 /* ZWRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZWRootViewController.m; sourceTree = "<group>"; };
 		0C55A8491E519FAB00AE2E44 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		0C55A84B1E51AF3600AE2E44 /* ZWMobilePlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWMobilePlayerViewController.h; sourceTree = "<group>"; };
+		0C55A84C1E51AF3600AE2E44 /* ZWMobilePlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZWMobilePlayerViewController.m; sourceTree = "<group>"; };
+		0C55A84F1E51CAB700AE2E44 /* GPUImageBeautifyFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPUImageBeautifyFilter.h; sourceTree = "<group>"; };
+		0C55A8501E51CAB700AE2E44 /* GPUImageBeautifyFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPUImageBeautifyFilter.m; sourceTree = "<group>"; };
+		0C55A8531E51CBA700AE2E44 /* ImageBeautifyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageBeautifyViewController.h; sourceTree = "<group>"; };
+		0C55A8541E51CBA700AE2E44 /* ImageBeautifyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageBeautifyViewController.m; sourceTree = "<group>"; };
 		2F5C95F3356C06B1286E8718 /* libPods-ZWCycleImageView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZWCycleImageView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		81C2FEDAFEF9BC97C7D5E148 /* Pods-ZWCycleImageView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZWCycleImageView.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZWCycleImageView/Pods-ZWCycleImageView.release.xcconfig"; sourceTree = "<group>"; };
 		BA67AB9F72D19F91C9A6E997 /* Pods-ZWCycleImageView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZWCycleImageView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZWCycleImageView/Pods-ZWCycleImageView.debug.xcconfig"; sourceTree = "<group>"; };
@@ -261,6 +270,7 @@
 		0C55A7B91E51801000AE2E44 /* ZWUtilities */ = {
 			isa = PBXGroup;
 			children = (
+				0C55A84E1E51CAB700AE2E44 /* BeautifyFaceFramework */,
 				0C55A7BA1E51802F00AE2E44 /* ZWHelper.h */,
 				0C55A7BB1E51802F00AE2E44 /* ZWHelper.m */,
 				0C55A7BD1E5181BC00AE2E44 /* ZWAFNetworking.h */,
@@ -289,6 +299,8 @@
 				0C55A7FD1E51980A00AE2E44 /* YZWFirstViewController.m */,
 				0C55A7B61E51681900AE2E44 /* ZWCycleImageDEMOViewController.h */,
 				0C55A7B71E51681900AE2E44 /* ZWCycleImageDEMOViewController.m */,
+				0C55A8521E51CB8F00AE2E44 /* GPUImageBeautifyVC */,
+				0C55A84A1E51AEED00AE2E44 /* 视频播放器 */,
 			);
 			path = YZWFirstViewController;
 			sourceTree = "<group>";
@@ -375,6 +387,33 @@
 			path = ZWCycleImageView/MYControllers/YZWFifthViewController;
 			sourceTree = SOURCE_ROOT;
 		};
+		0C55A84A1E51AEED00AE2E44 /* 视频播放器 */ = {
+			isa = PBXGroup;
+			children = (
+				0C55A84B1E51AF3600AE2E44 /* ZWMobilePlayerViewController.h */,
+				0C55A84C1E51AF3600AE2E44 /* ZWMobilePlayerViewController.m */,
+			);
+			path = "视频播放器";
+			sourceTree = "<group>";
+		};
+		0C55A84E1E51CAB700AE2E44 /* BeautifyFaceFramework */ = {
+			isa = PBXGroup;
+			children = (
+				0C55A84F1E51CAB700AE2E44 /* GPUImageBeautifyFilter.h */,
+				0C55A8501E51CAB700AE2E44 /* GPUImageBeautifyFilter.m */,
+			);
+			path = BeautifyFaceFramework;
+			sourceTree = "<group>";
+		};
+		0C55A8521E51CB8F00AE2E44 /* GPUImageBeautifyVC */ = {
+			isa = PBXGroup;
+			children = (
+				0C55A8531E51CBA700AE2E44 /* ImageBeautifyViewController.h */,
+				0C55A8541E51CBA700AE2E44 /* ImageBeautifyViewController.m */,
+			);
+			path = GPUImageBeautifyVC;
+			sourceTree = "<group>";
+		};
 		27C031904C986C129DE2EB7E /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -426,6 +465,7 @@
 				TargetAttributes = {
 					0C55A76F1E51533900AE2E44 = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 7U3MQTFVP7;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -553,11 +593,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				0C55A79D1E51591300AE2E44 /* TAPageControl.m in Sources */,
+				0C55A8511E51CAB700AE2E44 /* GPUImageBeautifyFilter.m in Sources */,
 				0C55A7FE1E51980A00AE2E44 /* YZWFirstViewController.m in Sources */,
 				0C55A7BC1E51802F00AE2E44 /* ZWHelper.m in Sources */,
+				0C55A8551E51CBA700AE2E44 /* ImageBeautifyViewController.m in Sources */,
 				0C55A79C1E51591300AE2E44 /* TADotView.m in Sources */,
 				0C55A8011E51982200AE2E44 /* YZWSecondViewController.m in Sources */,
 				0C55A8481E519E0600AE2E44 /* ZWRootViewController.m in Sources */,
+				0C55A84D1E51AF3600AE2E44 /* ZWMobilePlayerViewController.m in Sources */,
 				0C55A7A01E51591300AE2E44 /* UIView+SDExtension.m in Sources */,
 				0C55A8041E51983000AE2E44 /* YZWThirdViewController.m in Sources */,
 				0C55A8071E51984000AE2E44 /* YZWFourthViewController.m in Sources */,
@@ -688,10 +731,11 @@
 			baseConfigurationReference = BA67AB9F72D19F91C9A6E997 /* Pods-ZWCycleImageView.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7U3MQTFVP7;
 				GCC_PREFIX_HEADER = ZWCycleImageView/PrefixHeader.pch;
 				INFOPLIST_FILE = ZWCycleImageView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = liam.ZWCycleImageView;
+				PRODUCT_BUNDLE_IDENTIFIER = liam.zw.ZWCycleImageView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -701,10 +745,11 @@
 			baseConfigurationReference = 81C2FEDAFEF9BC97C7D5E148 /* Pods-ZWCycleImageView.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7U3MQTFVP7;
 				GCC_PREFIX_HEADER = ZWCycleImageView/PrefixHeader.pch;
 				INFOPLIST_FILE = ZWCycleImageView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = liam.ZWCycleImageView;
+				PRODUCT_BUNDLE_IDENTIFIER = liam.zw.ZWCycleImageView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;

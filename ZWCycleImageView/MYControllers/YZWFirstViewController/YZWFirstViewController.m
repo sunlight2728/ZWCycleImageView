@@ -23,14 +23,19 @@
 
   
     
-    self.dataArr = [[NSArray alloc] initWithObjects:@"ZWCycleImageDEMOViewController", nil];
+    self.dataArr = [[NSArray alloc] initWithObjects:@"ZWCycleImageDEMOViewController",@"ImageBeautifyViewController", nil];
     
-    self.nameArr = [[NSArray alloc] initWithObjects:@"滚动视图,轮播图，广告业，轮播字", nil];
+    self.nameArr = [[NSArray alloc] initWithObjects:@"滚动视图,轮播图，广告业，轮播字",@"美颜", nil];
     
     
     [self showMyTable];
 }
 
+-(void)viewWillAppear:(BOOL)animated{
+    [super viewWillAppear:YES];
+    
+    [self.rdv_tabBarController setTabBarHidden:NO animated:YES];
+}
 
 
 -(void)showMyTable
@@ -69,6 +74,7 @@
     NSLog(@"indexPath = %ld",(long)indexPath.row);
     
     Class class = NSClassFromString([self.dataArr objectAtIndex:indexPath.row]);
+    [self.rdv_tabBarController setTabBarHidden:YES animated:YES];
     [self.navigationController pushViewController:[[class alloc] init] animated:YES];
 }
 

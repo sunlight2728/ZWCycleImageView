@@ -10,5 +10,6 @@ target 'ZWCycleImageView' do
     pod 'AFNetworking'
     pod 'SDWebImage'
     pod 'RDVTabBarController'
+    pod 'GPUImage'
 
 end
