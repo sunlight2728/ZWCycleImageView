@@ -1,6 +1,5 @@
 # ZWCycleImageView
- ZWCycleImageView 使用的是 SDWebImage
- SDWebImage可自行下载
+ ZWCycleImageView 是一个广告轮播图，多张图片可以轮播，也可以实现其他样式，比如文字上下轮播
  
 [ZWCycleImageView](https://github.com/sunlight2728/ZWCycleImageView)
 ===================================================
