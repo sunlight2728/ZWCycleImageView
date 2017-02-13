@@ -13,6 +13,24 @@
 		0C55A77E1E51533900AE2E44 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C55A77C1E51533900AE2E44 /* Main.storyboard */; };
 		0C55A7801E51533900AE2E44 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C55A77F1E51533900AE2E44 /* Assets.xcassets */; };
 		0C55A7831E51533900AE2E44 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C55A7811E51533900AE2E44 /* LaunchScreen.storyboard */; };
+		0C55A79A1E51591300AE2E44 /* TAAbstractDotView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C55A78D1E51591300AE2E44 /* TAAbstractDotView.m */; };
+		0C55A79B1E51591300AE2E44 /* TAAnimatedDotView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C55A78F1E51591300AE2E44 /* TAAnimatedDotView.m */; };
+		0C55A79C1E51591300AE2E44 /* TADotView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C55A7911E51591300AE2E44 /* TADotView.m */; };
+		0C55A79D1E51591300AE2E44 /* TAPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C55A7931E51591300AE2E44 /* TAPageControl.m */; };
+		0C55A79E1E51591300AE2E44 /* ZWCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C55A7951E51591300AE2E44 /* ZWCollectionViewCell.m */; };
+		0C55A79F1E51591300AE2E44 /* ZWCycleImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C55A7971E51591300AE2E44 /* ZWCycleImageView.m */; };
+		0C55A7A01E51591300AE2E44 /* UIView+SDExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C55A7991E51591300AE2E44 /* UIView+SDExtension.m */; };
+		0C55A7AC1E51601A00AE2E44 /* 005.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0C55A7A21E51601A00AE2E44 /* 005.jpg */; };
+		0C55A7AD1E51601A00AE2E44 /* h1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0C55A7A31E51601A00AE2E44 /* h1.jpg */; };
+		0C55A7AE1E51601A00AE2E44 /* h2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0C55A7A41E51601A00AE2E44 /* h2.jpg */; };
+		0C55A7AF1E51601A00AE2E44 /* h3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0C55A7A51E51601A00AE2E44 /* h3.jpg */; };
+		0C55A7B01E51601A00AE2E44 /* h4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0C55A7A61E51601A00AE2E44 /* h4.jpg */; };
+		0C55A7B11E51601A00AE2E44 /* pageControlCurrentDot@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C55A7A71E51601A00AE2E44 /* pageControlCurrentDot@2x.png */; };
+		0C55A7B21E51601A00AE2E44 /* pageControlCurrentDot@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C55A7A81E51601A00AE2E44 /* pageControlCurrentDot@3x.png */; };
+		0C55A7B31E51601A00AE2E44 /* pageControlDot@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C55A7A91E51601A00AE2E44 /* pageControlDot@2x.png */; };
+		0C55A7B41E51601A00AE2E44 /* pageControlDot@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C55A7AA1E51601A00AE2E44 /* pageControlDot@3x.png */; };
+		0C55A7B51E51601A00AE2E44 /* placeholder@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C55A7AB1E51601A00AE2E44 /* placeholder@2x.png */; };
+		820738F9A1CA23D35F306575 /* libPods-ZWCycleImageView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F5C95F3356C06B1286E8718 /* libPods-ZWCycleImageView.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +44,33 @@
 		0C55A77F1E51533900AE2E44 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0C55A7821E51533900AE2E44 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0C55A7841E51533900AE2E44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0C55A78C1E51591300AE2E44 /* TAAbstractDotView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAAbstractDotView.h; sourceTree = "<group>"; };
+		0C55A78D1E51591300AE2E44 /* TAAbstractDotView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAAbstractDotView.m; sourceTree = "<group>"; };
+		0C55A78E1E51591300AE2E44 /* TAAnimatedDotView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAAnimatedDotView.h; sourceTree = "<group>"; };
+		0C55A78F1E51591300AE2E44 /* TAAnimatedDotView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAAnimatedDotView.m; sourceTree = "<group>"; };
+		0C55A7901E51591300AE2E44 /* TADotView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TADotView.h; sourceTree = "<group>"; };
+		0C55A7911E51591300AE2E44 /* TADotView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TADotView.m; sourceTree = "<group>"; };
+		0C55A7921E51591300AE2E44 /* TAPageControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAPageControl.h; sourceTree = "<group>"; };
+		0C55A7931E51591300AE2E44 /* TAPageControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAPageControl.m; sourceTree = "<group>"; };
+		0C55A7941E51591300AE2E44 /* ZWCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWCollectionViewCell.h; sourceTree = "<group>"; };
+		0C55A7951E51591300AE2E44 /* ZWCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZWCollectionViewCell.m; sourceTree = "<group>"; };
+		0C55A7961E51591300AE2E44 /* ZWCycleImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWCycleImageView.h; sourceTree = "<group>"; };
+		0C55A7971E51591300AE2E44 /* ZWCycleImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZWCycleImageView.m; sourceTree = "<group>"; };
+		0C55A7981E51591300AE2E44 /* UIView+SDExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+SDExtension.h"; sourceTree = "<group>"; };
+		0C55A7991E51591300AE2E44 /* UIView+SDExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+SDExtension.m"; sourceTree = "<group>"; };
+		0C55A7A21E51601A00AE2E44 /* 005.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 005.jpg; sourceTree = "<group>"; };
+		0C55A7A31E51601A00AE2E44 /* h1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = h1.jpg; sourceTree = "<group>"; };
+		0C55A7A41E51601A00AE2E44 /* h2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = h2.jpg; sourceTree = "<group>"; };
+		0C55A7A51E51601A00AE2E44 /* h3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = h3.jpg; sourceTree = "<group>"; };
+		0C55A7A61E51601A00AE2E44 /* h4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = h4.jpg; sourceTree = "<group>"; };
+		0C55A7A71E51601A00AE2E44 /* pageControlCurrentDot@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pageControlCurrentDot@2x.png"; sourceTree = "<group>"; };
+		0C55A7A81E51601A00AE2E44 /* pageControlCurrentDot@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pageControlCurrentDot@3x.png"; sourceTree = "<group>"; };
+		0C55A7A91E51601A00AE2E44 /* pageControlDot@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pageControlDot@2x.png"; sourceTree = "<group>"; };
+		0C55A7AA1E51601A00AE2E44 /* pageControlDot@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pageControlDot@3x.png"; sourceTree = "<group>"; };
+		0C55A7AB1E51601A00AE2E44 /* placeholder@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "placeholder@2x.png"; sourceTree = "<group>"; };
+		2F5C95F3356C06B1286E8718 /* libPods-ZWCycleImageView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZWCycleImageView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		81C2FEDAFEF9BC97C7D5E148 /* Pods-ZWCycleImageView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZWCycleImageView.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZWCycleImageView/Pods-ZWCycleImageView.release.xcconfig"; sourceTree = "<group>"; };
+		BA67AB9F72D19F91C9A6E997 /* Pods-ZWCycleImageView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZWCycleImageView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZWCycleImageView/Pods-ZWCycleImageView.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				820738F9A1CA23D35F306575 /* libPods-ZWCycleImageView.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +90,8 @@
 			children = (
 				0C55A7721E51533900AE2E44 /* ZWCycleImageView */,
 				0C55A7711E51533900AE2E44 /* Products */,
+				27C031904C986C129DE2EB7E /* Pods */,
+				8F440A8596744A2A08D6C36E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -62,6 +110,8 @@
 				0C55A7771E51533900AE2E44 /* AppDelegate.m */,
 				0C55A7791E51533900AE2E44 /* ViewController.h */,
 				0C55A77A1E51533900AE2E44 /* ViewController.m */,
+				0C55A7A11E515FFD00AE2E44 /* ZWImages */,
+				0C55A78A1E51591300AE2E44 /* ZWCycleImageFrameworks */,
 				0C55A77C1E51533900AE2E44 /* Main.storyboard */,
 				0C55A77F1E51533900AE2E44 /* Assets.xcassets */,
 				0C55A7811E51533900AE2E44 /* LaunchScreen.storyboard */,
@@ -79,6 +129,69 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		0C55A78A1E51591300AE2E44 /* ZWCycleImageFrameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0C55A78B1E51591300AE2E44 /* PageControl */,
+				0C55A7941E51591300AE2E44 /* ZWCollectionViewCell.h */,
+				0C55A7951E51591300AE2E44 /* ZWCollectionViewCell.m */,
+				0C55A7961E51591300AE2E44 /* ZWCycleImageView.h */,
+				0C55A7971E51591300AE2E44 /* ZWCycleImageView.m */,
+				0C55A7981E51591300AE2E44 /* UIView+SDExtension.h */,
+				0C55A7991E51591300AE2E44 /* UIView+SDExtension.m */,
+			);
+			path = ZWCycleImageFrameworks;
+			sourceTree = "<group>";
+		};
+		0C55A78B1E51591300AE2E44 /* PageControl */ = {
+			isa = PBXGroup;
+			children = (
+				0C55A78C1E51591300AE2E44 /* TAAbstractDotView.h */,
+				0C55A78D1E51591300AE2E44 /* TAAbstractDotView.m */,
+				0C55A78E1E51591300AE2E44 /* TAAnimatedDotView.h */,
+				0C55A78F1E51591300AE2E44 /* TAAnimatedDotView.m */,
+				0C55A7901E51591300AE2E44 /* TADotView.h */,
+				0C55A7911E51591300AE2E44 /* TADotView.m */,
+				0C55A7921E51591300AE2E44 /* TAPageControl.h */,
+				0C55A7931E51591300AE2E44 /* TAPageControl.m */,
+			);
+			path = PageControl;
+			sourceTree = "<group>";
+		};
+		0C55A7A11E515FFD00AE2E44 /* ZWImages */ = {
+			isa = PBXGroup;
+			children = (
+				0C55A7A21E51601A00AE2E44 /* 005.jpg */,
+				0C55A7A31E51601A00AE2E44 /* h1.jpg */,
+				0C55A7A41E51601A00AE2E44 /* h2.jpg */,
+				0C55A7A51E51601A00AE2E44 /* h3.jpg */,
+				0C55A7A61E51601A00AE2E44 /* h4.jpg */,
+				0C55A7A71E51601A00AE2E44 /* pageControlCurrentDot@2x.png */,
+				0C55A7A81E51601A00AE2E44 /* pageControlCurrentDot@3x.png */,
+				0C55A7A91E51601A00AE2E44 /* pageControlDot@2x.png */,
+				0C55A7AA1E51601A00AE2E44 /* pageControlDot@3x.png */,
+				0C55A7AB1E51601A00AE2E44 /* placeholder@2x.png */,
+			);
+			path = ZWImages;
+			sourceTree = "<group>";
+		};
+		27C031904C986C129DE2EB7E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BA67AB9F72D19F91C9A6E997 /* Pods-ZWCycleImageView.debug.xcconfig */,
+				81C2FEDAFEF9BC97C7D5E148 /* Pods-ZWCycleImageView.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8F440A8596744A2A08D6C36E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2F5C95F3356C06B1286E8718 /* libPods-ZWCycleImageView.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -86,9 +199,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0C55A7871E51533900AE2E44 /* Build configuration list for PBXNativeTarget "ZWCycleImageView" */;
 			buildPhases = (
+				035E8EB32658815E48852B4F /* [CP] Check Pods Manifest.lock */,
 				0C55A76C1E51533900AE2E44 /* Sources */,
 				0C55A76D1E51533900AE2E44 /* Frameworks */,
 				0C55A76E1E51533900AE2E44 /* Resources */,
+				D2DD5866DF700BA0252258D0 /* [CP] Embed Pods Frameworks */,
+				CDA437A5CF32F2D90B04AC0F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -137,22 +253,87 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0C55A7B41E51601A00AE2E44 /* pageControlDot@3x.png in Resources */,
+				0C55A7AF1E51601A00AE2E44 /* h3.jpg in Resources */,
+				0C55A7B11E51601A00AE2E44 /* pageControlCurrentDot@2x.png in Resources */,
+				0C55A7B51E51601A00AE2E44 /* placeholder@2x.png in Resources */,
+				0C55A7B01E51601A00AE2E44 /* h4.jpg in Resources */,
+				0C55A7AD1E51601A00AE2E44 /* h1.jpg in Resources */,
+				0C55A7B21E51601A00AE2E44 /* pageControlCurrentDot@3x.png in Resources */,
 				0C55A7831E51533900AE2E44 /* LaunchScreen.storyboard in Resources */,
 				0C55A7801E51533900AE2E44 /* Assets.xcassets in Resources */,
+				0C55A7B31E51601A00AE2E44 /* pageControlDot@2x.png in Resources */,
+				0C55A7AE1E51601A00AE2E44 /* h2.jpg in Resources */,
 				0C55A77E1E51533900AE2E44 /* Main.storyboard in Resources */,
+				0C55A7AC1E51601A00AE2E44 /* 005.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		035E8EB32658815E48852B4F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CDA437A5CF32F2D90B04AC0F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZWCycleImageView/Pods-ZWCycleImageView-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D2DD5866DF700BA0252258D0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZWCycleImageView/Pods-ZWCycleImageView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		0C55A76C1E51533900AE2E44 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0C55A79D1E51591300AE2E44 /* TAPageControl.m in Sources */,
 				0C55A77B1E51533900AE2E44 /* ViewController.m in Sources */,
+				0C55A79C1E51591300AE2E44 /* TADotView.m in Sources */,
+				0C55A7A01E51591300AE2E44 /* UIView+SDExtension.m in Sources */,
+				0C55A79A1E51591300AE2E44 /* TAAbstractDotView.m in Sources */,
+				0C55A79F1E51591300AE2E44 /* ZWCycleImageView.m in Sources */,
 				0C55A7781E51533900AE2E44 /* AppDelegate.m in Sources */,
+				0C55A79B1E51591300AE2E44 /* TAAnimatedDotView.m in Sources */,
 				0C55A7751E51533900AE2E44 /* main.m in Sources */,
+				0C55A79E1E51591300AE2E44 /* ZWCollectionViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,6 +449,7 @@
 		};
 		0C55A7881E51533900AE2E44 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA67AB9F72D19F91C9A6E997 /* Pods-ZWCycleImageView.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ZWCycleImageView/Info.plist;
@@ -279,6 +461,7 @@
 		};
 		0C55A7891E51533900AE2E44 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 81C2FEDAFEF9BC97C7D5E148 /* Pods-ZWCycleImageView.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ZWCycleImageView/Info.plist;
@@ -307,6 +490,7 @@
 				0C55A7891E51533900AE2E44 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
