@@ -102,8 +102,8 @@
 		0C55A7A91E51601A00AE2E44 /* pageControlDot@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pageControlDot@2x.png"; sourceTree = "<group>"; };
 		0C55A7AA1E51601A00AE2E44 /* pageControlDot@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pageControlDot@3x.png"; sourceTree = "<group>"; };
 		0C55A7AB1E51601A00AE2E44 /* placeholder@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "placeholder@2x.png"; sourceTree = "<group>"; };
-		0C55A7B61E51681900AE2E44 /* ZWCycleImageDEMOViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWCycleImageDEMOViewController.h; sourceTree = "<group>"; };
-		0C55A7B71E51681900AE2E44 /* ZWCycleImageDEMOViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZWCycleImageDEMOViewController.m; sourceTree = "<group>"; };
+		0C55A7B61E51681900AE2E44 /* ZWCycleImageDEMOViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZWCycleImageDEMOViewController.h; path = ../../ZWCycleImageDEMOViewController.h; sourceTree = "<group>"; };
+		0C55A7B71E51681900AE2E44 /* ZWCycleImageDEMOViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZWCycleImageDEMOViewController.m; path = ../../ZWCycleImageDEMOViewController.m; sourceTree = "<group>"; };
 		0C55A7BA1E51802F00AE2E44 /* ZWHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWHelper.h; sourceTree = "<group>"; };
 		0C55A7BB1E51802F00AE2E44 /* ZWHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZWHelper.m; sourceTree = "<group>"; };
 		0C55A7BD1E5181BC00AE2E44 /* ZWAFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWAFNetworking.h; sourceTree = "<group>"; };
@@ -189,8 +189,6 @@
 			children = (
 				0C55A7761E51533900AE2E44 /* AppDelegate.h */,
 				0C55A7771E51533900AE2E44 /* AppDelegate.m */,
-				0C55A7B61E51681900AE2E44 /* ZWCycleImageDEMOViewController.h */,
-				0C55A7B71E51681900AE2E44 /* ZWCycleImageDEMOViewController.m */,
 				0C55A7F61E5197D100AE2E44 /* MYControllers */,
 				0C55A7B91E51801000AE2E44 /* ZWUtilities */,
 				0C55A7A11E515FFD00AE2E44 /* ZWImages */,
@@ -289,6 +287,8 @@
 			children = (
 				0C55A7FC1E51980A00AE2E44 /* YZWFirstViewController.h */,
 				0C55A7FD1E51980A00AE2E44 /* YZWFirstViewController.m */,
+				0C55A7B61E51681900AE2E44 /* ZWCycleImageDEMOViewController.h */,
+				0C55A7B71E51681900AE2E44 /* ZWCycleImageDEMOViewController.m */,
 			);
 			path = YZWFirstViewController;
 			sourceTree = "<group>";
