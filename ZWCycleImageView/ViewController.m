@@ -17,8 +17,6 @@
 @property(strong ,nonatomic) NSArray *dataArr;
 @property(strong ,nonatomic) NSArray *nameArr;
 
-//file:///Users/liam/Desktop/myGitHub/ZWCycleImageView/ZWCycleImageView/ViewController.m: warning: Missing file: /Users/liam/Desktop/myGitHub/ZWCycleImageView/ZWCycleImageView/ViewController.m is missing from working copy
-
 
 @end
 
