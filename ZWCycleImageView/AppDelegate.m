@@ -34,6 +34,10 @@
     [self setupViewControllers];
     [self.window setRootViewController:self.viewController];
     [self.window makeKeyAndVisible];
+ 
+    
+    
+    
     
     [self customizeInterface];
     

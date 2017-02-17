@@ -69,6 +69,20 @@
 		0C55A84D1E51AF3600AE2E44 /* ZWMobilePlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C55A84C1E51AF3600AE2E44 /* ZWMobilePlayerViewController.m */; };
 		0C55A8511E51CAB700AE2E44 /* GPUImageBeautifyFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C55A8501E51CAB700AE2E44 /* GPUImageBeautifyFilter.m */; };
 		0C55A8551E51CBA700AE2E44 /* ImageBeautifyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C55A8541E51CBA700AE2E44 /* ImageBeautifyViewController.m */; };
+		0C55A8641E51E96000AE2E44 /* 2.美女图.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0C55A85E1E51E96000AE2E44 /* 2.美女图.jpg */; };
+		0C55A8651E51E96000AE2E44 /* Gravity.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C55A8611E51E96000AE2E44 /* Gravity.m */; };
+		0C55A8661E51E96000AE2E44 /* GravityView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C55A8631E51E96000AE2E44 /* GravityView.m */; };
+		0C55A8681E51E9A500AE2E44 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C55A8671E51E9A500AE2E44 /* CoreMotion.framework */; };
+		0C55A86B1E51E9D900AE2E44 /* ZWCoreMotionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C55A86A1E51E9D900AE2E44 /* ZWCoreMotionViewController.m */; };
+		0CE172181E5689EA00282E95 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CE172171E5689EA00282E95 /* CoreMedia.framework */; };
+		0CE1721A1E5689F200282E95 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CE172191E5689F200282E95 /* CoreVideo.framework */; };
+		0CE1721C1E5689F900282E95 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CE1721B1E5689F900282E95 /* OpenGLES.framework */; };
+		0CE1721E1E568A0300282E95 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CE1721D1E568A0300282E95 /* QuartzCore.framework */; };
+		0CE172201E568A0E00282E95 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CE1721F1E568A0E00282E95 /* MobileCoreServices.framework */; };
+		0CE172221E568A1C00282E95 /* libMobileGestalt.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CE172211E568A1C00282E95 /* libMobileGestalt.tbd */; };
+		0CE172241E568A2A00282E95 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CE172231E568A2A00282E95 /* CoreTelephony.framework */; };
+		0CE1722A1E568BEE00282E95 /* ZWDescription.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CE172291E568BEE00282E95 /* ZWDescription.m */; };
+		0CE1722E1E56B2E300282E95 /* NSDictionary+NilSafe.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CE1722D1E56B2E300282E95 /* NSDictionary+NilSafe.m */; };
 		820738F9A1CA23D35F306575 /* libPods-ZWCycleImageView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F5C95F3356C06B1286E8718 /* libPods-ZWCycleImageView.a */; };
 /* End PBXBuildFile section */
 
@@ -158,6 +172,26 @@
 		0C55A8501E51CAB700AE2E44 /* GPUImageBeautifyFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPUImageBeautifyFilter.m; sourceTree = "<group>"; };
 		0C55A8531E51CBA700AE2E44 /* ImageBeautifyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageBeautifyViewController.h; sourceTree = "<group>"; };
 		0C55A8541E51CBA700AE2E44 /* ImageBeautifyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageBeautifyViewController.m; sourceTree = "<group>"; };
+		0C55A85E1E51E96000AE2E44 /* 2.美女图.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "2.美女图.jpg"; path = "../2.美女图.jpg"; sourceTree = "<group>"; };
+		0C55A8601E51E96000AE2E44 /* Gravity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Gravity.h; sourceTree = "<group>"; };
+		0C55A8611E51E96000AE2E44 /* Gravity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Gravity.m; sourceTree = "<group>"; };
+		0C55A8621E51E96000AE2E44 /* GravityView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GravityView.h; sourceTree = "<group>"; };
+		0C55A8631E51E96000AE2E44 /* GravityView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GravityView.m; sourceTree = "<group>"; };
+		0C55A8671E51E9A500AE2E44 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		0C55A8691E51E9D900AE2E44 /* ZWCoreMotionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWCoreMotionViewController.h; sourceTree = "<group>"; };
+		0C55A86A1E51E9D900AE2E44 /* ZWCoreMotionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZWCoreMotionViewController.m; sourceTree = "<group>"; };
+		0CE172171E5689EA00282E95 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		0CE172191E5689F200282E95 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		0CE1721B1E5689F900282E95 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		0CE1721D1E568A0300282E95 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		0CE1721F1E568A0E00282E95 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		0CE172211E568A1C00282E95 /* libMobileGestalt.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libMobileGestalt.tbd; path = usr/lib/libMobileGestalt.tbd; sourceTree = SDKROOT; };
+		0CE172231E568A2A00282E95 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		0CE172271E568BBF00282E95 /* iOSDescription.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iOSDescription.h; sourceTree = "<group>"; };
+		0CE172281E568BEE00282E95 /* ZWDescription.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWDescription.h; sourceTree = "<group>"; };
+		0CE172291E568BEE00282E95 /* ZWDescription.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZWDescription.m; sourceTree = "<group>"; };
+		0CE1722C1E56B2E300282E95 /* NSDictionary+NilSafe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+NilSafe.h"; sourceTree = "<group>"; };
+		0CE1722D1E56B2E300282E95 /* NSDictionary+NilSafe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+NilSafe.m"; sourceTree = "<group>"; };
 		2F5C95F3356C06B1286E8718 /* libPods-ZWCycleImageView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZWCycleImageView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		81C2FEDAFEF9BC97C7D5E148 /* Pods-ZWCycleImageView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZWCycleImageView.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZWCycleImageView/Pods-ZWCycleImageView.release.xcconfig"; sourceTree = "<group>"; };
 		BA67AB9F72D19F91C9A6E997 /* Pods-ZWCycleImageView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZWCycleImageView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZWCycleImageView/Pods-ZWCycleImageView.debug.xcconfig"; sourceTree = "<group>"; };
@@ -168,6 +202,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0CE172221E568A1C00282E95 /* libMobileGestalt.tbd in Frameworks */,
+				0CE172241E568A2A00282E95 /* CoreTelephony.framework in Frameworks */,
+				0CE172201E568A0E00282E95 /* MobileCoreServices.framework in Frameworks */,
+				0CE1721E1E568A0300282E95 /* QuartzCore.framework in Frameworks */,
+				0CE1721C1E5689F900282E95 /* OpenGLES.framework in Frameworks */,
+				0CE1721A1E5689F200282E95 /* CoreVideo.framework in Frameworks */,
+				0CE172181E5689EA00282E95 /* CoreMedia.framework in Frameworks */,
+				0C55A8681E51E9A500AE2E44 /* CoreMotion.framework in Frameworks */,
 				820738F9A1CA23D35F306575 /* libPods-ZWCycleImageView.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -270,6 +312,8 @@
 		0C55A7B91E51801000AE2E44 /* ZWUtilities */ = {
 			isa = PBXGroup;
 			children = (
+				0CE1722B1E56B2E300282E95 /* NSDictionary-NilSafe */,
+				0CE172261E568BBF00282E95 /* iOSDescription */,
 				0C55A84E1E51CAB700AE2E44 /* BeautifyFaceFramework */,
 				0C55A7BA1E51802F00AE2E44 /* ZWHelper.h */,
 				0C55A7BB1E51802F00AE2E44 /* ZWHelper.m */,
@@ -299,6 +343,7 @@
 				0C55A7FD1E51980A00AE2E44 /* YZWFirstViewController.m */,
 				0C55A7B61E51681900AE2E44 /* ZWCycleImageDEMOViewController.h */,
 				0C55A7B71E51681900AE2E44 /* ZWCycleImageDEMOViewController.m */,
+				0C55A85D1E51E96000AE2E44 /* 陀螺仪Demo */,
 				0C55A8521E51CB8F00AE2E44 /* GPUImageBeautifyVC */,
 				0C55A84A1E51AEED00AE2E44 /* 视频播放器 */,
 			);
@@ -414,6 +459,47 @@
 			path = GPUImageBeautifyVC;
 			sourceTree = "<group>";
 		};
+		0C55A85D1E51E96000AE2E44 /* 陀螺仪Demo */ = {
+			isa = PBXGroup;
+			children = (
+				0C55A85F1E51E96000AE2E44 /* Gravity */,
+				0C55A8691E51E9D900AE2E44 /* ZWCoreMotionViewController.h */,
+				0C55A86A1E51E9D900AE2E44 /* ZWCoreMotionViewController.m */,
+			);
+			path = "陀螺仪Demo";
+			sourceTree = "<group>";
+		};
+		0C55A85F1E51E96000AE2E44 /* Gravity */ = {
+			isa = PBXGroup;
+			children = (
+				0C55A85E1E51E96000AE2E44 /* 2.美女图.jpg */,
+				0C55A8601E51E96000AE2E44 /* Gravity.h */,
+				0C55A8611E51E96000AE2E44 /* Gravity.m */,
+				0C55A8621E51E96000AE2E44 /* GravityView.h */,
+				0C55A8631E51E96000AE2E44 /* GravityView.m */,
+			);
+			path = Gravity;
+			sourceTree = "<group>";
+		};
+		0CE172261E568BBF00282E95 /* iOSDescription */ = {
+			isa = PBXGroup;
+			children = (
+				0CE172271E568BBF00282E95 /* iOSDescription.h */,
+				0CE172281E568BEE00282E95 /* ZWDescription.h */,
+				0CE172291E568BEE00282E95 /* ZWDescription.m */,
+			);
+			path = iOSDescription;
+			sourceTree = "<group>";
+		};
+		0CE1722B1E56B2E300282E95 /* NSDictionary-NilSafe */ = {
+			isa = PBXGroup;
+			children = (
+				0CE1722C1E56B2E300282E95 /* NSDictionary+NilSafe.h */,
+				0CE1722D1E56B2E300282E95 /* NSDictionary+NilSafe.m */,
+			);
+			path = "NSDictionary-NilSafe";
+			sourceTree = "<group>";
+		};
 		27C031904C986C129DE2EB7E /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -426,6 +512,14 @@
 		8F440A8596744A2A08D6C36E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				0CE172231E568A2A00282E95 /* CoreTelephony.framework */,
+				0CE172211E568A1C00282E95 /* libMobileGestalt.tbd */,
+				0CE1721F1E568A0E00282E95 /* MobileCoreServices.framework */,
+				0CE1721D1E568A0300282E95 /* QuartzCore.framework */,
+				0CE1721B1E5689F900282E95 /* OpenGLES.framework */,
+				0CE172191E5689F200282E95 /* CoreVideo.framework */,
+				0CE172171E5689EA00282E95 /* CoreMedia.framework */,
+				0C55A8671E51E9A500AE2E44 /* CoreMotion.framework */,
 				2F5C95F3356C06B1286E8718 /* libPods-ZWCycleImageView.a */,
 			);
 			name = Frameworks;
@@ -508,6 +602,7 @@
 				0C55A8331E519C4D00AE2E44 /* navigationbar_background_tall.png in Resources */,
 				0C55A7B01E51601A00AE2E44 /* h4.jpg in Resources */,
 				0C55A8371E519C4D00AE2E44 /* second_selected.png in Resources */,
+				0C55A8641E51E96000AE2E44 /* 2.美女图.jpg in Resources */,
 				0C55A7AD1E51601A00AE2E44 /* h1.jpg in Resources */,
 				0C55A7B21E51601A00AE2E44 /* pageControlCurrentDot@3x.png in Resources */,
 				0C55A83F1E519C4D00AE2E44 /* third_selected.png in Resources */,
@@ -597,12 +692,15 @@
 				0C55A7FE1E51980A00AE2E44 /* YZWFirstViewController.m in Sources */,
 				0C55A7BC1E51802F00AE2E44 /* ZWHelper.m in Sources */,
 				0C55A8551E51CBA700AE2E44 /* ImageBeautifyViewController.m in Sources */,
+				0CE1722E1E56B2E300282E95 /* NSDictionary+NilSafe.m in Sources */,
 				0C55A79C1E51591300AE2E44 /* TADotView.m in Sources */,
+				0C55A86B1E51E9D900AE2E44 /* ZWCoreMotionViewController.m in Sources */,
 				0C55A8011E51982200AE2E44 /* YZWSecondViewController.m in Sources */,
 				0C55A8481E519E0600AE2E44 /* ZWRootViewController.m in Sources */,
 				0C55A84D1E51AF3600AE2E44 /* ZWMobilePlayerViewController.m in Sources */,
 				0C55A7A01E51591300AE2E44 /* UIView+SDExtension.m in Sources */,
 				0C55A8041E51983000AE2E44 /* YZWThirdViewController.m in Sources */,
+				0CE1722A1E568BEE00282E95 /* ZWDescription.m in Sources */,
 				0C55A8071E51984000AE2E44 /* YZWFourthViewController.m in Sources */,
 				0C55A79A1E51591300AE2E44 /* TAAbstractDotView.m in Sources */,
 				0C55A79F1E51591300AE2E44 /* ZWCycleImageView.m in Sources */,
@@ -610,9 +708,11 @@
 				0C55A7B81E51681900AE2E44 /* ZWCycleImageDEMOViewController.m in Sources */,
 				0C55A79B1E51591300AE2E44 /* TAAnimatedDotView.m in Sources */,
 				0C55A8451E519DE500AE2E44 /* YZWFifthViewController.m in Sources */,
+				0C55A8651E51E96000AE2E44 /* Gravity.m in Sources */,
 				0C55A7751E51533900AE2E44 /* main.m in Sources */,
 				0C55A79E1E51591300AE2E44 /* ZWCollectionViewCell.m in Sources */,
 				0C55A7BF1E5181BC00AE2E44 /* ZWAFNetworking.m in Sources */,
+				0C55A8661E51E96000AE2E44 /* GravityView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
