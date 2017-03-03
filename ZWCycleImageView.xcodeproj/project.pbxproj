@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0C242DEE1E69A5330000492F /* FileListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C242DED1E69A5330000492F /* FileListTableViewController.m */; };
 		0C55A7751E51533900AE2E44 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C55A7741E51533900AE2E44 /* main.m */; };
 		0C55A7781E51533900AE2E44 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C55A7771E51533900AE2E44 /* AppDelegate.m */; };
 		0C55A77E1E51533900AE2E44 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C55A77C1E51533900AE2E44 /* Main.storyboard */; };
@@ -83,10 +84,33 @@
 		0CE172241E568A2A00282E95 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CE172231E568A2A00282E95 /* CoreTelephony.framework */; };
 		0CE1722A1E568BEE00282E95 /* ZWDescription.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CE172291E568BEE00282E95 /* ZWDescription.m */; };
 		0CE1722E1E56B2E300282E95 /* NSDictionary+NilSafe.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CE1722D1E56B2E300282E95 /* NSDictionary+NilSafe.m */; };
-		820738F9A1CA23D35F306575 /* libPods-ZWCycleImageView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F5C95F3356C06B1286E8718 /* libPods-ZWCycleImageView.a */; };
+		0CE172361E56C73000282E95 /* ZWCameraDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CE172351E56C73000282E95 /* ZWCameraDemoViewController.m */; };
+		0CE1727E1E56CB2700282E95 /* JKRCameraBackgroundView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CE172731E56CB2700282E95 /* JKRCameraBackgroundView.m */; };
+		0CE1727F1E56CB2700282E95 /* JKRCameraProgressHistoryLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CE172751E56CB2700282E95 /* JKRCameraProgressHistoryLayer.m */; };
+		0CE172801E56CB2700282E95 /* JKRCameraProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CE172771E56CB2700282E95 /* JKRCameraProgressView.m */; };
+		0CE172811E56CB2700282E95 /* JKRCameraSliderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CE172791E56CB2700282E95 /* JKRCameraSliderView.m */; };
+		0CE172821E56CB2700282E95 /* JKRCameraTipView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CE1727B1E56CB2700282E95 /* JKRCameraTipView.m */; };
+		0CE172831E56CB2700282E95 /* JKRCameraView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CE1727D1E56CB2700282E95 /* JKRCameraView.m */; };
+		0CE172A81E56CC7E00282E95 /* JKREditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CE172961E56CC7E00282E95 /* JKREditViewController.m */; };
+		0CE172A91E56CC7E00282E95 /* JKRMenuTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CE172981E56CC7E00282E95 /* JKRMenuTableViewCell.m */; };
+		0CE172AA1E56CC7E00282E95 /* JKRMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CE1729A1E56CC7E00282E95 /* JKRMenuViewController.m */; };
+		0CE172AC1E56CC7E00282E95 /* JKRVideosManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CE1729E1E56CC7E00282E95 /* JKRVideosManager.m */; };
+		0CE172AD1E56CC7E00282E95 /* NSObject+KVO.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CE172A11E56CC7E00282E95 /* NSObject+KVO.m */; };
+		0CE172AE1E56CC7E00282E95 /* NSString+FileSize.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CE172A31E56CC7E00282E95 /* NSString+FileSize.m */; };
+		0CE172AF1E56CC7E00282E95 /* UIImage+image.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CE172A51E56CC7E00282E95 /* UIImage+image.m */; };
+		0CE172B01E56CC7E00282E95 /* UILabel+tipLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CE172A71E56CC7E00282E95 /* UILabel+tipLabel.m */; };
+		0CE172D91E56CDEB00282E95 /* JKRFlickerLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CE172D01E56CDEB00282E95 /* JKRFlickerLabel.m */; };
+		0CE172DA1E56CDEB00282E95 /* JKRUIDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CE172D21E56CDEB00282E95 /* JKRUIDemo.m */; };
+		0CE172DB1E56CDEB00282E95 /* JKRVideoBackGroundView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CE172D41E56CDEB00282E95 /* JKRVideoBackGroundView.m */; };
+		0CE172DC1E56CDEB00282E95 /* JKRVideoEditView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CE172D61E56CDEB00282E95 /* JKRVideoEditView.m */; };
+		0CE172DD1E56CDEB00282E95 /* RQShineLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CE172D81E56CDEB00282E95 /* RQShineLabel.m */; };
+		0CE172DF1E56D1A700282E95 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CE172DE1E56D1A700282E95 /* AddressBook.framework */; };
+		0CE172E11E56D1DC00282E95 /* AddressBookUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CE172E01E56D1DC00282E95 /* AddressBookUI.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0C242DEC1E69A5330000492F /* FileListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileListTableViewController.h; sourceTree = "<group>"; };
+		0C242DED1E69A5330000492F /* FileListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FileListTableViewController.m; sourceTree = "<group>"; };
 		0C55A7701E51533900AE2E44 /* ZWCycleImageView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZWCycleImageView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C55A7741E51533900AE2E44 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0C55A7761E51533900AE2E44 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -192,7 +216,48 @@
 		0CE172291E568BEE00282E95 /* ZWDescription.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZWDescription.m; sourceTree = "<group>"; };
 		0CE1722C1E56B2E300282E95 /* NSDictionary+NilSafe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+NilSafe.h"; sourceTree = "<group>"; };
 		0CE1722D1E56B2E300282E95 /* NSDictionary+NilSafe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+NilSafe.m"; sourceTree = "<group>"; };
-		2F5C95F3356C06B1286E8718 /* libPods-ZWCycleImageView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZWCycleImageView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0CE172341E56C73000282E95 /* ZWCameraDemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWCameraDemoViewController.h; sourceTree = "<group>"; };
+		0CE172351E56C73000282E95 /* ZWCameraDemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZWCameraDemoViewController.m; sourceTree = "<group>"; };
+		0CE172721E56CB2700282E95 /* JKRCameraBackgroundView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKRCameraBackgroundView.h; sourceTree = "<group>"; };
+		0CE172731E56CB2700282E95 /* JKRCameraBackgroundView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKRCameraBackgroundView.m; sourceTree = "<group>"; };
+		0CE172741E56CB2700282E95 /* JKRCameraProgressHistoryLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKRCameraProgressHistoryLayer.h; sourceTree = "<group>"; };
+		0CE172751E56CB2700282E95 /* JKRCameraProgressHistoryLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKRCameraProgressHistoryLayer.m; sourceTree = "<group>"; };
+		0CE172761E56CB2700282E95 /* JKRCameraProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKRCameraProgressView.h; sourceTree = "<group>"; };
+		0CE172771E56CB2700282E95 /* JKRCameraProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKRCameraProgressView.m; sourceTree = "<group>"; };
+		0CE172781E56CB2700282E95 /* JKRCameraSliderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKRCameraSliderView.h; sourceTree = "<group>"; };
+		0CE172791E56CB2700282E95 /* JKRCameraSliderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKRCameraSliderView.m; sourceTree = "<group>"; };
+		0CE1727A1E56CB2700282E95 /* JKRCameraTipView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKRCameraTipView.h; sourceTree = "<group>"; };
+		0CE1727B1E56CB2700282E95 /* JKRCameraTipView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKRCameraTipView.m; sourceTree = "<group>"; };
+		0CE1727C1E56CB2700282E95 /* JKRCameraView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKRCameraView.h; sourceTree = "<group>"; };
+		0CE1727D1E56CB2700282E95 /* JKRCameraView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKRCameraView.m; sourceTree = "<group>"; };
+		0CE172951E56CC7E00282E95 /* JKREditViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKREditViewController.h; sourceTree = "<group>"; };
+		0CE172961E56CC7E00282E95 /* JKREditViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKREditViewController.m; sourceTree = "<group>"; };
+		0CE172971E56CC7E00282E95 /* JKRMenuTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKRMenuTableViewCell.h; sourceTree = "<group>"; };
+		0CE172981E56CC7E00282E95 /* JKRMenuTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKRMenuTableViewCell.m; sourceTree = "<group>"; };
+		0CE172991E56CC7E00282E95 /* JKRMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKRMenuViewController.h; sourceTree = "<group>"; };
+		0CE1729A1E56CC7E00282E95 /* JKRMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKRMenuViewController.m; sourceTree = "<group>"; };
+		0CE1729D1E56CC7E00282E95 /* JKRVideosManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKRVideosManager.h; sourceTree = "<group>"; };
+		0CE1729E1E56CC7E00282E95 /* JKRVideosManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKRVideosManager.m; sourceTree = "<group>"; };
+		0CE172A01E56CC7E00282E95 /* NSObject+KVO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+KVO.h"; sourceTree = "<group>"; };
+		0CE172A11E56CC7E00282E95 /* NSObject+KVO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+KVO.m"; sourceTree = "<group>"; };
+		0CE172A21E56CC7E00282E95 /* NSString+FileSize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+FileSize.h"; sourceTree = "<group>"; };
+		0CE172A31E56CC7E00282E95 /* NSString+FileSize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+FileSize.m"; sourceTree = "<group>"; };
+		0CE172A41E56CC7E00282E95 /* UIImage+image.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+image.h"; sourceTree = "<group>"; };
+		0CE172A51E56CC7E00282E95 /* UIImage+image.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+image.m"; sourceTree = "<group>"; };
+		0CE172A61E56CC7E00282E95 /* UILabel+tipLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+tipLabel.h"; sourceTree = "<group>"; };
+		0CE172A71E56CC7E00282E95 /* UILabel+tipLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+tipLabel.m"; sourceTree = "<group>"; };
+		0CE172CF1E56CDEB00282E95 /* JKRFlickerLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKRFlickerLabel.h; sourceTree = "<group>"; };
+		0CE172D01E56CDEB00282E95 /* JKRFlickerLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKRFlickerLabel.m; sourceTree = "<group>"; };
+		0CE172D11E56CDEB00282E95 /* JKRUIDemo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKRUIDemo.h; sourceTree = "<group>"; };
+		0CE172D21E56CDEB00282E95 /* JKRUIDemo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKRUIDemo.m; sourceTree = "<group>"; };
+		0CE172D31E56CDEB00282E95 /* JKRVideoBackGroundView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKRVideoBackGroundView.h; sourceTree = "<group>"; };
+		0CE172D41E56CDEB00282E95 /* JKRVideoBackGroundView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKRVideoBackGroundView.m; sourceTree = "<group>"; };
+		0CE172D51E56CDEB00282E95 /* JKRVideoEditView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKRVideoEditView.h; sourceTree = "<group>"; };
+		0CE172D61E56CDEB00282E95 /* JKRVideoEditView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKRVideoEditView.m; sourceTree = "<group>"; };
+		0CE172D71E56CDEB00282E95 /* RQShineLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RQShineLabel.h; sourceTree = "<group>"; };
+		0CE172D81E56CDEB00282E95 /* RQShineLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RQShineLabel.m; sourceTree = "<group>"; };
+		0CE172DE1E56D1A700282E95 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		0CE172E01E56D1DC00282E95 /* AddressBookUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBookUI.framework; path = System/Library/Frameworks/AddressBookUI.framework; sourceTree = SDKROOT; };
 		81C2FEDAFEF9BC97C7D5E148 /* Pods-ZWCycleImageView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZWCycleImageView.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZWCycleImageView/Pods-ZWCycleImageView.release.xcconfig"; sourceTree = "<group>"; };
 		BA67AB9F72D19F91C9A6E997 /* Pods-ZWCycleImageView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZWCycleImageView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZWCycleImageView/Pods-ZWCycleImageView.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -202,6 +267,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0CE172E11E56D1DC00282E95 /* AddressBookUI.framework in Frameworks */,
+				0CE172DF1E56D1A700282E95 /* AddressBook.framework in Frameworks */,
 				0CE172221E568A1C00282E95 /* libMobileGestalt.tbd in Frameworks */,
 				0CE172241E568A2A00282E95 /* CoreTelephony.framework in Frameworks */,
 				0CE172201E568A0E00282E95 /* MobileCoreServices.framework in Frameworks */,
@@ -210,13 +277,21 @@
 				0CE1721A1E5689F200282E95 /* CoreVideo.framework in Frameworks */,
 				0CE172181E5689EA00282E95 /* CoreMedia.framework in Frameworks */,
 				0C55A8681E51E9A500AE2E44 /* CoreMotion.framework in Frameworks */,
-				820738F9A1CA23D35F306575 /* libPods-ZWCycleImageView.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0C242DEB1E69A5330000492F /* 本地文件遍历 */ = {
+			isa = PBXGroup;
+			children = (
+				0C242DEC1E69A5330000492F /* FileListTableViewController.h */,
+				0C242DED1E69A5330000492F /* FileListTableViewController.m */,
+			);
+			path = "本地文件遍历";
+			sourceTree = "<group>";
+		};
 		0C55A7671E51533900AE2E44 = {
 			isa = PBXGroup;
 			children = (
@@ -343,6 +418,8 @@
 				0C55A7FD1E51980A00AE2E44 /* YZWFirstViewController.m */,
 				0C55A7B61E51681900AE2E44 /* ZWCycleImageDEMOViewController.h */,
 				0C55A7B71E51681900AE2E44 /* ZWCycleImageDEMOViewController.m */,
+				0C242DEB1E69A5330000492F /* 本地文件遍历 */,
+				0CE172331E56C70400282E95 /* ZWCameraDemo */,
 				0C55A85D1E51E96000AE2E44 /* 陀螺仪Demo */,
 				0C55A8521E51CB8F00AE2E44 /* GPUImageBeautifyVC */,
 				0C55A84A1E51AEED00AE2E44 /* 视频播放器 */,
@@ -500,6 +577,85 @@
 			path = "NSDictionary-NilSafe";
 			sourceTree = "<group>";
 		};
+		0CE172331E56C70400282E95 /* ZWCameraDemo */ = {
+			isa = PBXGroup;
+			children = (
+				0CE172341E56C73000282E95 /* ZWCameraDemoViewController.h */,
+				0CE172351E56C73000282E95 /* ZWCameraDemoViewController.m */,
+				0CE172CE1E56CDEB00282E95 /* ZWCameraVideoEditView */,
+				0CE172941E56CC7E00282E95 /* ZWCameraDemoControllers */,
+				0CE1729F1E56CC7E00282E95 /* ZWCameraDemoUtility */,
+				0CE172711E56CB2700282E95 /* CameraView */,
+			);
+			path = ZWCameraDemo;
+			sourceTree = "<group>";
+		};
+		0CE172711E56CB2700282E95 /* CameraView */ = {
+			isa = PBXGroup;
+			children = (
+				0CE172721E56CB2700282E95 /* JKRCameraBackgroundView.h */,
+				0CE172731E56CB2700282E95 /* JKRCameraBackgroundView.m */,
+				0CE172741E56CB2700282E95 /* JKRCameraProgressHistoryLayer.h */,
+				0CE172751E56CB2700282E95 /* JKRCameraProgressHistoryLayer.m */,
+				0CE172761E56CB2700282E95 /* JKRCameraProgressView.h */,
+				0CE172771E56CB2700282E95 /* JKRCameraProgressView.m */,
+				0CE172781E56CB2700282E95 /* JKRCameraSliderView.h */,
+				0CE172791E56CB2700282E95 /* JKRCameraSliderView.m */,
+				0CE1727A1E56CB2700282E95 /* JKRCameraTipView.h */,
+				0CE1727B1E56CB2700282E95 /* JKRCameraTipView.m */,
+				0CE1727C1E56CB2700282E95 /* JKRCameraView.h */,
+				0CE1727D1E56CB2700282E95 /* JKRCameraView.m */,
+			);
+			path = CameraView;
+			sourceTree = "<group>";
+		};
+		0CE172941E56CC7E00282E95 /* ZWCameraDemoControllers */ = {
+			isa = PBXGroup;
+			children = (
+				0CE172951E56CC7E00282E95 /* JKREditViewController.h */,
+				0CE172961E56CC7E00282E95 /* JKREditViewController.m */,
+				0CE172971E56CC7E00282E95 /* JKRMenuTableViewCell.h */,
+				0CE172981E56CC7E00282E95 /* JKRMenuTableViewCell.m */,
+				0CE172991E56CC7E00282E95 /* JKRMenuViewController.h */,
+				0CE1729A1E56CC7E00282E95 /* JKRMenuViewController.m */,
+				0CE1729D1E56CC7E00282E95 /* JKRVideosManager.h */,
+				0CE1729E1E56CC7E00282E95 /* JKRVideosManager.m */,
+			);
+			path = ZWCameraDemoControllers;
+			sourceTree = "<group>";
+		};
+		0CE1729F1E56CC7E00282E95 /* ZWCameraDemoUtility */ = {
+			isa = PBXGroup;
+			children = (
+				0CE172A01E56CC7E00282E95 /* NSObject+KVO.h */,
+				0CE172A11E56CC7E00282E95 /* NSObject+KVO.m */,
+				0CE172A21E56CC7E00282E95 /* NSString+FileSize.h */,
+				0CE172A31E56CC7E00282E95 /* NSString+FileSize.m */,
+				0CE172A41E56CC7E00282E95 /* UIImage+image.h */,
+				0CE172A51E56CC7E00282E95 /* UIImage+image.m */,
+				0CE172A61E56CC7E00282E95 /* UILabel+tipLabel.h */,
+				0CE172A71E56CC7E00282E95 /* UILabel+tipLabel.m */,
+			);
+			path = ZWCameraDemoUtility;
+			sourceTree = "<group>";
+		};
+		0CE172CE1E56CDEB00282E95 /* ZWCameraVideoEditView */ = {
+			isa = PBXGroup;
+			children = (
+				0CE172CF1E56CDEB00282E95 /* JKRFlickerLabel.h */,
+				0CE172D01E56CDEB00282E95 /* JKRFlickerLabel.m */,
+				0CE172D11E56CDEB00282E95 /* JKRUIDemo.h */,
+				0CE172D21E56CDEB00282E95 /* JKRUIDemo.m */,
+				0CE172D31E56CDEB00282E95 /* JKRVideoBackGroundView.h */,
+				0CE172D41E56CDEB00282E95 /* JKRVideoBackGroundView.m */,
+				0CE172D51E56CDEB00282E95 /* JKRVideoEditView.h */,
+				0CE172D61E56CDEB00282E95 /* JKRVideoEditView.m */,
+				0CE172D71E56CDEB00282E95 /* RQShineLabel.h */,
+				0CE172D81E56CDEB00282E95 /* RQShineLabel.m */,
+			);
+			path = ZWCameraVideoEditView;
+			sourceTree = "<group>";
+		};
 		27C031904C986C129DE2EB7E /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -512,6 +668,8 @@
 		8F440A8596744A2A08D6C36E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				0CE172E01E56D1DC00282E95 /* AddressBookUI.framework */,
+				0CE172DE1E56D1A700282E95 /* AddressBook.framework */,
 				0CE172231E568A2A00282E95 /* CoreTelephony.framework */,
 				0CE172211E568A1C00282E95 /* libMobileGestalt.tbd */,
 				0CE1721F1E568A0E00282E95 /* MobileCoreServices.framework */,
@@ -520,7 +678,6 @@
 				0CE172191E5689F200282E95 /* CoreVideo.framework */,
 				0CE172171E5689EA00282E95 /* CoreMedia.framework */,
 				0C55A8671E51E9A500AE2E44 /* CoreMotion.framework */,
-				2F5C95F3356C06B1286E8718 /* libPods-ZWCycleImageView.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -688,30 +845,51 @@
 			buildActionMask = 2147483647;
 			files = (
 				0C55A79D1E51591300AE2E44 /* TAPageControl.m in Sources */,
+				0CE172D91E56CDEB00282E95 /* JKRFlickerLabel.m in Sources */,
+				0CE172AA1E56CC7E00282E95 /* JKRMenuViewController.m in Sources */,
 				0C55A8511E51CAB700AE2E44 /* GPUImageBeautifyFilter.m in Sources */,
+				0CE172801E56CB2700282E95 /* JKRCameraProgressView.m in Sources */,
+				0CE172AE1E56CC7E00282E95 /* NSString+FileSize.m in Sources */,
 				0C55A7FE1E51980A00AE2E44 /* YZWFirstViewController.m in Sources */,
 				0C55A7BC1E51802F00AE2E44 /* ZWHelper.m in Sources */,
+				0CE172DC1E56CDEB00282E95 /* JKRVideoEditView.m in Sources */,
 				0C55A8551E51CBA700AE2E44 /* ImageBeautifyViewController.m in Sources */,
 				0CE1722E1E56B2E300282E95 /* NSDictionary+NilSafe.m in Sources */,
 				0C55A79C1E51591300AE2E44 /* TADotView.m in Sources */,
 				0C55A86B1E51E9D900AE2E44 /* ZWCoreMotionViewController.m in Sources */,
+				0CE1727F1E56CB2700282E95 /* JKRCameraProgressHistoryLayer.m in Sources */,
+				0CE172A91E56CC7E00282E95 /* JKRMenuTableViewCell.m in Sources */,
 				0C55A8011E51982200AE2E44 /* YZWSecondViewController.m in Sources */,
 				0C55A8481E519E0600AE2E44 /* ZWRootViewController.m in Sources */,
 				0C55A84D1E51AF3600AE2E44 /* ZWMobilePlayerViewController.m in Sources */,
+				0CE172AC1E56CC7E00282E95 /* JKRVideosManager.m in Sources */,
+				0CE172B01E56CC7E00282E95 /* UILabel+tipLabel.m in Sources */,
 				0C55A7A01E51591300AE2E44 /* UIView+SDExtension.m in Sources */,
+				0CE172361E56C73000282E95 /* ZWCameraDemoViewController.m in Sources */,
 				0C55A8041E51983000AE2E44 /* YZWThirdViewController.m in Sources */,
 				0CE1722A1E568BEE00282E95 /* ZWDescription.m in Sources */,
 				0C55A8071E51984000AE2E44 /* YZWFourthViewController.m in Sources */,
 				0C55A79A1E51591300AE2E44 /* TAAbstractDotView.m in Sources */,
 				0C55A79F1E51591300AE2E44 /* ZWCycleImageView.m in Sources */,
 				0C55A7781E51533900AE2E44 /* AppDelegate.m in Sources */,
+				0CE172DD1E56CDEB00282E95 /* RQShineLabel.m in Sources */,
 				0C55A7B81E51681900AE2E44 /* ZWCycleImageDEMOViewController.m in Sources */,
+				0CE172DB1E56CDEB00282E95 /* JKRVideoBackGroundView.m in Sources */,
+				0CE1727E1E56CB2700282E95 /* JKRCameraBackgroundView.m in Sources */,
 				0C55A79B1E51591300AE2E44 /* TAAnimatedDotView.m in Sources */,
 				0C55A8451E519DE500AE2E44 /* YZWFifthViewController.m in Sources */,
 				0C55A8651E51E96000AE2E44 /* Gravity.m in Sources */,
+				0CE172A81E56CC7E00282E95 /* JKREditViewController.m in Sources */,
 				0C55A7751E51533900AE2E44 /* main.m in Sources */,
+				0CE172AD1E56CC7E00282E95 /* NSObject+KVO.m in Sources */,
+				0CE172DA1E56CDEB00282E95 /* JKRUIDemo.m in Sources */,
 				0C55A79E1E51591300AE2E44 /* ZWCollectionViewCell.m in Sources */,
 				0C55A7BF1E5181BC00AE2E44 /* ZWAFNetworking.m in Sources */,
+				0CE172821E56CB2700282E95 /* JKRCameraTipView.m in Sources */,
+				0CE172AF1E56CC7E00282E95 /* UIImage+image.m in Sources */,
+				0C242DEE1E69A5330000492F /* FileListTableViewController.m in Sources */,
+				0CE172831E56CB2700282E95 /* JKRCameraView.m in Sources */,
+				0CE172811E56CB2700282E95 /* JKRCameraSliderView.m in Sources */,
 				0C55A8661E51E96000AE2E44 /* GravityView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -834,6 +1012,7 @@
 				DEVELOPMENT_TEAM = 7U3MQTFVP7;
 				GCC_PREFIX_HEADER = ZWCycleImageView/PrefixHeader.pch;
 				INFOPLIST_FILE = ZWCycleImageView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = liam.zw.ZWCycleImageView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -848,6 +1027,7 @@
 				DEVELOPMENT_TEAM = 7U3MQTFVP7;
 				GCC_PREFIX_HEADER = ZWCycleImageView/PrefixHeader.pch;
 				INFOPLIST_FILE = ZWCycleImageView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = liam.zw.ZWCycleImageView;
 				PRODUCT_NAME = "$(TARGET_NAME)";

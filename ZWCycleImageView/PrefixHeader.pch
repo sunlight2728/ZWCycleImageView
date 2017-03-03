@@ -22,4 +22,18 @@
 #define SCREEN_HEIGHT   ([UIScreen mainScreen].bounds.size.height)
 
 
+#define kMoviePath @"kMoviePath"
+#define kMovieTime @"kMovieTime"
+#define kMovieSpeed @"kMovieSpeed"
+#define kMovieIndex @"kMovieIndex"
+#define kMovieSpeed_Normal @"kMovieSpeed_Normal"
+#define kMovieSpeed_Fast @"kMovieSpeed_Fast"
+#define kMovieSpeed_Slow @"kMovieSpeed_Slow"
+/// 分段视频临时存储路径
+#define kCachePath NSSearchPathForDirectoriesInDomains(NSCachesDirectory, NSUserDomainMask, YES).lastObject
+/// 合成视频本地存储路径
+#define kVideoPath NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES).lastObject
+
+
+
 #endif /* PrefixHeader_pch */

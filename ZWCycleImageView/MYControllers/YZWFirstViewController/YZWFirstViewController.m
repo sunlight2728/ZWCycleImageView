@@ -23,9 +23,13 @@
 
   
     
-    self.dataArr = [[NSArray alloc] initWithObjects:@"ZWCycleImageDEMOViewController",@"ImageBeautifyViewController", nil];
+    self.dataArr = [[NSArray alloc] initWithObjects:
+                    @"ZWCycleImageDEMOViewController",@"ImageBeautifyViewController",@"ZWCoreMotionViewController",
+                    @"ZWCameraDemoViewController",@"FileListTableViewController",nil];
     
-    self.nameArr = [[NSArray alloc] initWithObjects:@"滚动视图,轮播图，广告业，轮播字",@"美颜", nil];
+    self.nameArr = [[NSArray alloc] initWithObjects:
+                    @"滚动视图,轮播图，广告页，轮播字",@"美颜",@"陀螺仪Demo",
+                    @"相机，滤镜Demo",@"沙盒文件遍历，后续增加文件内容读取", nil];
     
     
     [self showMyTable];

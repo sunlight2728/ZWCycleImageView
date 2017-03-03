@@ -11,18 +11,18 @@
 @interface GravityView : UIView
 
 /**
- *  @param 显示的图片
+ *   显示的图片
  */
 @property (nonatomic, strong) UIImage *image;
 @property (nonatomic, strong, readonly) UIImageView *myImageView;
 
 /**
- *  @param 开始重力感应
+ *   开始重力感应
  */
 - (void)startAnimate;
 
 /**
- *  @param 停止重力感应
+ *   停止重力感应
  */
 - (void)stopAnimate;
 

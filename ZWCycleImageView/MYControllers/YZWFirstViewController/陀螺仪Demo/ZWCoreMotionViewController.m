@@ -7,6 +7,8 @@
 //
 
 #import "ZWCoreMotionViewController.h"
+#import "Gravity.h"
+#import "GravityView.h"
 
 @interface ZWCoreMotionViewController ()
 
@@ -17,6 +19,14 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    
+    GravityView *imageView = [[GravityView alloc] initWithFrame:CGRectMake(0, 0, [UIScreen mainScreen].bounds.size.width, [UIScreen mainScreen].bounds.size.height)];
+    imageView.image = [UIImage imageNamed:@"2.美女图.jpg"];
+    [self.view addSubview:imageView];
+    
+    [imageView startAnimate];
+    
+    
 }
 
 - (void)didReceiveMemoryWarning {

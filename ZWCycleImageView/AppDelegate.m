@@ -36,7 +36,8 @@
     [self.window makeKeyAndVisible];
  
     
-    
+    signal(SIGPIPE, SIG_IGN);
+
     
     
     [self customizeInterface];
