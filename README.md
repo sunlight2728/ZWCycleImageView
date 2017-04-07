@@ -3,6 +3,8 @@
  
 [ZWCycleImageView](https://github.com/sunlight2728/ZWCycleImageView)
 ===================================================
+增加查看沙盒文件夹，并倒叙显示
+增加一个简单的美颜相机
 
 ZWCycleImageView 使用的是 SDWebImage 请自行下载，或者使用pod.
 
